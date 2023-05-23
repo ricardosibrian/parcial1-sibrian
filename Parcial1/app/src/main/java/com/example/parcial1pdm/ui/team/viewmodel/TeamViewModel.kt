@@ -53,6 +53,12 @@ class TeamViewModel(private val repository: TeamRepository): ViewModel() {
         status.value = INACTIVE
     }
 
+    // Funcion para implementar el RecyclerView
+    fun setSelectedTeam(team: TeamModel) {
+        name.value = team.name
+        sport.value = team.sport
+    }
+
     companion object {
         val Factory = viewModelFactory {
             initializer {

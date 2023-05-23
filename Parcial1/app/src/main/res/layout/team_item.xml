@@ -4,13 +4,13 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/medium_gap">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/card"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/medium_gap"
             android:layout_marginStart="@dimen/medium_gap"
             android:layout_marginEnd="@dimen/medium_gap"
             android:backgroundTint="@color/card"
@@ -39,7 +39,7 @@
                     android:layout_width="160dp"
                     android:layout_height="wrap_content"
                     android:gravity="center"
-                    android:text="Cristiano Ronaldo"
+                    android:text="@string/name"
                     android:textColor="@color/white"
                     android:textStyle="bold"
                     android:textSize="25dp"
@@ -52,7 +52,7 @@
                     android:id="@+id/secondTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Striker"
+                    android:text="@string/sport"
                     android:textSize="20dp"
                     android:textStyle="bold"
                     android:textColor="@color/secondColor"

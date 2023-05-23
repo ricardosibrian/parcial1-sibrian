@@ -1,4 +1,4 @@
-package com.example.parcial1pdm.ui.team
+package com.example.parcial1pdm.ui.team.viewmodel
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

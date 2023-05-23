@@ -1,4 +1,4 @@
-package com.example.parcial1pdm.ui.team
+package com.example.parcial1pdm.ui.team.newteam
 
 import android.os.Bundle
 import android.util.Log
@@ -6,13 +6,10 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
-import com.example.parcial1pdm.R
-import com.example.parcial1pdm.data.model.TeamModel
 import com.example.parcial1pdm.databinding.FragmentNewTeamBinding
-import com.google.android.material.textfield.TextInputEditText
+import com.example.parcial1pdm.ui.team.viewmodel.TeamViewModel
 
 class NewTeamFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.parcial1pdm.ui.team
+package com.example.parcial1pdm.ui.team.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

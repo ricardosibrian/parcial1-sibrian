@@ -6,14 +6,14 @@
     <data>
         <variable
             name="viewmodel"
-            type="com.example.parcial1pdm.ui.team.TeamViewModel" />
+            type="com.example.parcial1pdm.ui.team.viewmodel.TeamViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/background"
-        tools:context=".ui.team.NewTeamFragment">
+        tools:context=".ui.team.newteam.NewTeamFragment">
 
         <TextView
             android:id="@+id/addTitle"

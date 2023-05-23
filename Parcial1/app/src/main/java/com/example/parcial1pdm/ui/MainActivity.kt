@@ -1,7 +1,8 @@
-package com.example.parcial1pdm
+package com.example.parcial1pdm.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.parcial1pdm.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

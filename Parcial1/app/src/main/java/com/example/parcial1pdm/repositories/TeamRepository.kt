@@ -6,5 +6,5 @@ class TeamRepository(private val teams:MutableList<TeamModel> ) {
 
     fun getTeams() = teams
 
-    fun addteam(newTeam: TeamModel) = teams.add(newTeam)
+    fun addTeam(newTeam: TeamModel) = teams.add(newTeam)
 }

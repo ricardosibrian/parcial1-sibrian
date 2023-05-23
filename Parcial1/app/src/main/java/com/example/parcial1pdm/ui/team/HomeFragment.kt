@@ -1,4 +1,4 @@
-package com.example.parcial1pdm
+package com.example.parcial1pdm.ui.team
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.cardview.widget.CardView
 import androidx.navigation.findNavController
+import com.example.parcial1pdm.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
 

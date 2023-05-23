@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Parcial1PDM</string>
+    <string name="app_name">Sport Teams</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_team">Add new Team</string>
+    <string name="add_team">Add Team</string>
 </resources>
